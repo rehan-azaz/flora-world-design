@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Flora World</title>
+
+<!-- Bootstrap core CSS -->
+<link href="plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link href="plugin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img src="img/logo2.png"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="listing.html">Listings</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="contact.html">Contact Us</a> </li>
+    </ul>
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item"> <a class="nav-link" href="singup.html">Sign Up </a> </li>
+      <li class="nav-item"> <a class="nav-link" href="login.html">Login</a> </li>
+      <li class="nav-item">
+        <a type="button" class="btn btn-dark themebutton" href="becomegardener.html">+ Become a Gardener</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Masthead -->
+<header class="breadcrumb-div text-white text-center">
+  <div class="overlay"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-12 mx-auto">
+       <h3>Login</h3>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="signup">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-12">
+        <h1 class="text-center"> Login now to see your World</h1>
+        <p class="text-center"> </p>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col col-md-6">
+        <form action="" class="mt-4">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+          </div>
+          <a  class="btn btn-dark themebutton btn-block mt-4" href="social-login/index.html">Login</a>
+          <br>
+          <a href="singup.html">Create a new account</a> <br>
+          <a href="javascript:void(0)" id="forgot-password-toggle">Forgot username or password</a>
+        </form>
+        <div id="hidden-form" style="display:none;" class="mt-5">
+          <p>Enter your email address to receive your username and reset your password.</p>
+          <div class="form-group">
+            <label for="email-2">Email:</label>
+            <input type="email" class="form-control" id="email-2">
+          </div>
+          <button type="Submit" class="btn btn-dark themebutton btn-block mt-4">Request New Password</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"> <a href="about.html">About</a> </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item"> <a href="contact.html">Contact</a> </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item"> <a  href="about.html#term-of-use">Terms of Use</a> </li>
+          <li class="list-inline-item">&sdot;</li>
+          <li class="list-inline-item"> <a  href="about.html#privacy">Privacy Policy</a> </li>
+        </ul>
+        <p class="text-muted small mb-4 mb-lg-0">&copy; Flora World 2018. All Rights Reserved.</p>
+      </div>
+      <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-facebook fa-2x fa-fw"></i> </a> </li>
+          <li class="list-inline-item mr-3"> <a href="#"> <i class="fa fa-twitter fa-2x fa-fw"></i> </a> </li>
+          <li class="list-inline-item"> <a href="#"> <i class="fa fa-instagram fa-2x fa-fw"></i> </a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript --> 
+<script src="plugin/jquery/jquery.min.js"></script> 
+<script src="plugin/bootstrap/js/bootstrap.js"></script> 
+<script>
+$(document).ready(function(){
+	
+	
+	$('#forgot-password-toggle').click(function(){
+		   $('#hidden-form').toggle();
+			
+			
+		});
+		
+		
+		});
+		
+		
+
+
+		</script>
+</body>
+</html>
